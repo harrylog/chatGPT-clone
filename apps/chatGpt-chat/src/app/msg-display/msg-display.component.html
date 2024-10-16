@@ -1,1 +1,6 @@
-<p>msg-display works!</p>
+<div
+  class="message"
+  [ngClass]="{ 'user-message': message.isUser, 'bot-message': !message.isUser }"
+>
+  <p>{{ message.content }}</p>
+</div>

@@ -1,4 +1,5 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+// import { ChangeDetectionStrategy } from '@angular/core';
+import {  Component } from '@angular/core';
 
 @Component({
   selector: 'app-conversation-history',
@@ -6,7 +7,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   imports: [],
   templateUrl: './conversation-history.component.html',
   styleUrl: './conversation-history.component.scss',
-  changeDetection: ChangeDetectionStrategy.OnPush
+  // changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class ConversationHistoryComponent {
 
